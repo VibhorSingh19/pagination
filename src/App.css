@@ -1,0 +1,74 @@
+.pagination {
+  margin-left: 40% ;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+#card{
+height: 11%;
+width: 500px;
+background-color:cornflowerblue;
+margin-left: 40%;
+margin-top:10px ;
+padding: 10px;
+align-items: center;
+border-radius: 10px;
+font-size: large;
+}
